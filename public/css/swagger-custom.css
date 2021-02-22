@@ -1,0 +1,157 @@
+body {
+  transition: all 0.5s linear;
+}
+
+.swagger-ui .btn.authorize:hover {
+  border-color: transparent;
+  background-color: rgba(120, 188, 97, .1) !important;
+}
+.swagger-ui .btn {
+  box-shadow: none !important;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+  border-radius: 0 !important;
+  padding: 10px 0px;
+  width: 80px;
+}
+.swagger-ui .opblock .opblock-summary {
+  padding: 0px !important;
+}
+.swagger-ui .opblock {
+  border-radius: 0;
+  background-color: white !important;
+  border: 0;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+  background-color: #DD4B4D;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+  background-color: #4B78DD;
+}
+
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+  background-color: #49C25E;
+}
+
+.swagger-ui .opblock.opblock-patch .opblock-summary-method {
+  background-color: #7861D2;
+}
+.swagger-ui .opblock.opblock-patch .tab-header .tab-item.active h4 span:after {
+  background: #7861D2;
+}
+.swagger-ui .opblock.opblock-patch .opblock-summary {
+  border-color: #7861D2;
+}
+
+.swagger-ui .btn.try-out__btn:hover {
+  border-color: transparent;
+  background-color: whitesmoke !important;
+}
+
+.swagger-ui.dark {
+  color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.toggle-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+button.toggle-dark {
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url("/img/dark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px dotted black;
+}
+
+button.toggle-dark.active {
+  background-color: black;
+  background-image: url("/img/light.png");
+  border: 1px dotted white;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white !important;
+}
+
+.swagger-ui .scheme-container {
+  transition: all 0.5s linear;
+}
+
+.swagger-ui.dark .scheme-container {
+  background-color: #1F1F1F;
+}
+
+
+.swagger-ui.dark .info .title, .swagger-ui.dark .info p, .swagger-ui.dark .opblock-summary-description {
+  color: whitesmoke !important;
+}
+
+.swagger-ui.dark .opblock .opblock-summary-path, .swagger-ui.dark .opblock-tag {
+  color: whitesmoke !important;
+}
+
+.swagger-ui.dark .opblock-summary, .swagger-ui.dark .opblock-body {
+  background-color: #1F1F1F;
+  color: whitesmoke !important;
+}
+
+.swagger-ui.dark .opblock-section-header {
+  color: white !important;
+  background-color: #121212;
+}
+
+.swagger-ui.dark h4, .swagger-ui.dark p, .swagger-ui.dark td, .swagger-ui.dark a.tablinks, .swagger-ui.dark h5 {
+  color: whitesmoke !important;
+}
+
+.swagger-ui.dark .btn.authorize svg {
+  fill:#49CC90 !important;
+}
+
+.swagger-ui.dark .btn.try-out__btn, .swagger-ui.dark .auth-btn-wrapper .btn-done  {
+  color: white;
+}
+
+.swagger-ui.dark .btn.try-out__btn:hover {
+  color: grey;
+}
+
+.swagger-ui.dark svg {
+  fill: whitesmoke !important;
+}
+
+.swagger-ui.dark .info .base-url, .swagger-ui.dark th, .swagger-ui.dark h3 {
+  color: whitesmoke;
+}
+
+.swagger-ui.dark .parameter__name, .swagger-ui.dark .parameter__type {
+  color: whitesmoke;
+}
+
+.swagger-ui.dark .dialog-ux .modal-ux {
+  background-color: #1F1F1F;
+}
+
+.swagger-ui.dark .dialog-ux .modal-ux-header h3, .swagger-ui.dark label {
+  color: whitesmoke;
+}
